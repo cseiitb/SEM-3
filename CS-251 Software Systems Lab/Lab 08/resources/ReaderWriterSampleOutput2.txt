@@ -1,0 +1,70 @@
+Writer is entering
+Writer is leaving
+Reader 8 is Entering, Number of Readers: 1
+Reader 8 is reading Book Version: 1
+Reader 6 is Entering, Number of Readers: 2
+Reader 6 is reading Book Version: 1
+Reader 10 is Entering, Number of Readers: 3
+Reader 10 is reading Book Version: 1
+Reader 1 is Entering, Number of Readers: 4
+Reader 1 is reading Book Version: 1
+Reader 7 is Entering, Number of Readers: 5
+Reader 7 is reading Book Version: 1
+Reader 4 is Entering, Number of Readers: 6
+Reader 4 is reading Book Version: 1
+Reader 6 is Leaving, Number of Readers: 5
+Reader 8 is Leaving, Number of Readers: 4
+Reader 10 is Leaving, Number of Readers: 3
+Reader 7 is Leaving, Number of Readers: 2
+Reader 1 is Leaving, Number of Readers: 1
+Reader 9 is Entering, Number of Readers: 2
+Reader 9 is reading Book Version: 1
+Reader 4 is Leaving, Number of Readers: 1
+Reader 3 is Entering, Number of Readers: 2
+Reader 3 is reading Book Version: 1
+Reader 9 is Leaving, Number of Readers: 1
+Reader 2 is Entering, Number of Readers: 2
+Reader 2 is reading Book Version: 1
+Reader 5 is Entering, Number of Readers: 3
+Reader 5 is reading Book Version: 1
+Reader 3 is Leaving, Number of Readers: 2
+Reader 2 is Leaving, Number of Readers: 1
+Reader 5 is Leaving, Number of Readers: 0
+Writer is entering
+Writer is leaving
+Reader 4 is Entering, Number of Readers: 1
+Reader 4 is reading Book Version: 2
+Reader 10 is Entering, Number of Readers: 2
+Reader 10 is reading Book Version: 2
+Reader 5 is Entering, Number of Readers: 3
+Reader 5 is reading Book Version: 2
+Reader 4 is Leaving, Number of Readers: 2
+Reader 5 is Leaving, Number of Readers: 1
+Reader 10 is Leaving, Number of Readers: 0
+Writer is entering
+Writer is leaving
+Reader 7 is Entering, Number of Readers: 1
+Reader 7 is reading Book Version: 3
+Reader 6 is Entering, Number of Readers: 2
+Reader 6 is reading Book Version: 3
+Reader 1 is Entering, Number of Readers: 3
+Reader 1 is reading Book Version: 3
+Reader 2 is Entering, Number of Readers: 4
+Reader 2 is reading Book Version: 3
+Reader 3 is Entering, Number of Readers: 5
+Reader 3 is reading Book Version: 3
+Reader 8 is Entering, Number of Readers: 6
+Reader 8 is reading Book Version: 3
+Reader 6 is Leaving, Number of Readers: 5
+Reader 1 is Leaving, Number of Readers: 4
+Reader 7 is Leaving, Number of Readers: 3
+Reader 2 is Leaving, Number of Readers: 2
+Reader 3 is Leaving, Number of Readers: 1
+Reader 8 is Leaving, Number of Readers: 0
+Writer is entering
+Writer is leaving
+Reader 9 is Entering, Number of Readers: 1
+Reader 9 is reading Book Version: 4
+Reader 9 is Leaving, Number of Readers: 0
+Writer is entering
+Writer is leaving

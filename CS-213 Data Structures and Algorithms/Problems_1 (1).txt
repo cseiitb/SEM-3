@@ -1,0 +1,61 @@
+                           Problems on Sequences.
+
+1. Consider the function f defined on sequences of non-negative integers 
+   as follows.
+
+   f(empty) = empty.
+   for all nonempty sequences S, f(S) = f(g(S));
+
+   g(empty) = empty;
+   g((0,S)) = S;
+   g((i,S)) = h(S,i-1) for i > 0.
+
+   h(S,0) = S 
+   h(S,i) = h(append(S,i),i-1) if i > 0.
+
+   append(empty, i) = (i, empty);
+   append( (j,S), i) = (j, append(S,i));
+
+   Find what is the value of f(S) for an arbitrary sequence S.
+   Prove your answer.
+
+
+2. Prove that for any sequence of integers S,
+   insertion_sort(S) = quick_sort(S).
+
+
+3, Informally, a sequence S1 is said to be a subsequence of a sequence S2,
+   if S1 can be obtained from S2, by deleting some elements, keeping the
+   order of the remaining elements the same.
+
+   Formally define a boolean function is_subsequence(S1,S2), which returns
+   true iff S1 is a subsequence of S2.
+
+   Using your definition, prove that
+
+a) is_subsequence(S1,S2) && is_subsequence(S2,S3) implies 
+   is_subsequence(S1,S3).
+
+b) is_subsequence(S1,S2) && is_subsequence(S3,S4) implies
+   is_subsequence(append(S1,S3), append(S2,S4)).
+
+c) is_subsequence(S1, reverse(S2)) implies is_subsequence(reverse(S1),S2)).
+
+4, Write a function l(S) that takes a sequence of integers S as input and 
+   returns the length of the longest increasing subsequence of the given
+   sequence.
+
+   Prove that for any two sequences S1, S2,
+
+   max(l(S1), l(S2)) <= l(append(S1,S2)) <= l(S1) + l(S2).
+  
+  Give examples to show that both the bounds can be achieved.
+   
+
+5. Write a function that takes a sequence of integers and a parameter k,
+   and returns the kth smallest element in the sequence, that is, the 
+   element that will be in the kth position, if the sequence is sorted.
+   It can be assumed that the kth position is defined for the sequence.
+
+   Try to do this without using the sort function. You can use the
+   quick_sort idea to get a better way.

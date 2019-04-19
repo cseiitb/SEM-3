@@ -1,0 +1,25 @@
+Waiting for a client to connect ... 
+
+
+[Thu Oct 08 14:24:29 IST 2015] localhost: Free for a chat? My public key is fen30nf039n4
+
+[Thu Oct 08 14:24:41 IST 2015] Me: Sure. Let us begin. My public key is 9hbfw9fb4ub
+
+Keys exchanged! 
+
+[Thu Oct 08 14:25:06] localhost : 
+Received encrypted stream: 84101108108321091013297110321011209710911210810132111102329732991141019711611711410132119104111329997110321081051181013211111032108971101003297115321191011081083297115321199711610111463
+Decrypted String: Tell me an example of a creature who can live on land as well as water?
+
+[Thu Oct 08 14:25:11] Me: Frog
+
+[Thu Oct 08 14:25:16] localhost : 
+Received encrypted stream: 711111111004632661171163210310511810132109101329711011111610410111432101120971091121081013211210810197115101
+Decrypted String: Good. But give me another example please
+
+[Thu Oct 08 14:25:22] Me: Another Frog :P
+
+Session Ended with client localhost ! 
+
+
+Waiting for a client to connect ... 
